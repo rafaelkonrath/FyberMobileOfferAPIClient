@@ -45,7 +45,6 @@ class FyberOffer
       ##
       # Encryption please 
       #
-      #puts params
       response = HTTParty.get("https://api.sponsorpay.com/feed/v1/offers.json", :query => params )
       
       unless checksig?(response)
