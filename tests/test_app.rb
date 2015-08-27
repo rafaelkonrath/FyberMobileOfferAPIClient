@@ -25,6 +25,6 @@ class MyAppTest < Test::Unit::TestCase
   def test_no_offer_returns
   	post '/reply', {:uid => "0", :pub0 => "0", :page => "0"}
   	assert last_response.ok?
-    assert last_response.body.include?('No Offers')
+    assert last_response.body.include?('No Offers Available')
   end  
 end
