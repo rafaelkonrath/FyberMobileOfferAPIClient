@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fyber Mobile Offer API</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Fyber Mobile Offer API form</h2>
+  <form role="form" action="/reply" method="post" enctype="application/x-www-form-urlencoded"> 
+    <div class="form-group">
+      <label for="uid">uid:</label>
+      <input type="text" class="form-control" name="uid" id="uid" placeholder="Enter with player1" required="required" maxlength="30">
+    </div>
+    <div class="form-group">
+      <label for="pub0">pub0:</label>
+      <input type="text" class="form-control" name="pub0" id="pub0" placeholder="Enter the campaign2" required="required" maxlength="30">
+    </div>
+    <div class="form-group">
+      <label for="page">page:</label>
+      <input type="text" class="form-control" name="page" id="page" placeholder="Enter page number" required="required" maxlength="30">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>
