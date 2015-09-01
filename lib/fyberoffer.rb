@@ -1,4 +1,5 @@
 require "httparty"
+require 'json'
 
 ##
 #  SHA-1 Broken does not use it
