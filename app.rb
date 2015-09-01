@@ -3,7 +3,6 @@
 require 'sinatra'
 require 'json'
 require 'httparty'
-require 'rubygems'
 require './lib/fyberoffer'
 
 # Only use it for debugging
