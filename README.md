@@ -13,7 +13,7 @@ All the code was written using test/unit and rack/test
 * HTTParty
 
 ### Tests
-* minitest
+* test-unit 
 * rack-test
 
 ### Debugging
