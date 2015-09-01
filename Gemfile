@@ -5,7 +5,7 @@ gem 'json'
 gem 'httparty'
 
 group :test do
-  gem 'minitest'
+  gem 'test-unit'
   gem 'rack-test'
 end
 
