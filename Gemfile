@@ -5,6 +5,7 @@ gem 'json'
 gem 'httparty'
 
 group :test do
+  gem 'rake'
   gem 'test-unit'
   gem 'rack-test'
 end
