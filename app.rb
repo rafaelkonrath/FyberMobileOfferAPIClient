@@ -1,8 +1,6 @@
 
 # load dependencies
 require 'sinatra'
-require 'json'
-require 'httparty'
 require './lib/fyberoffer'
 
 # Only use it for debugging
