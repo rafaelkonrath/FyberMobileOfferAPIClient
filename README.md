@@ -19,5 +19,4 @@ All the code was written using test/unit and rack/test
 ### Debugging
 * pry
 
-### AWS
-* The application is deployed at AWS: http://ec2-54-191-182-117.us-west-2.compute.amazonaws.com/
+
